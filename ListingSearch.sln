@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{25668776-6BAF-4AAA-8737-B644824187C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListingSearch.Api", "src\ListingSearch.Api\ListingSearch.Api.csproj", "{DB16BABD-73C5-4F1B-84F0-F0BCD341F38E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{97BC6EFF-57C3-490C-8046-069497975EA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListingSearch.Tests", "tests\ListingSearch.Tests\ListingSearch.Tests.csproj", "{AFD27BFE-7800-4198-9766-8E6C5977C700}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB16BABD-73C5-4F1B-84F0-F0BCD341F38E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB16BABD-73C5-4F1B-84F0-F0BCD341F38E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB16BABD-73C5-4F1B-84F0-F0BCD341F38E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB16BABD-73C5-4F1B-84F0-F0BCD341F38E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFD27BFE-7800-4198-9766-8E6C5977C700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFD27BFE-7800-4198-9766-8E6C5977C700}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFD27BFE-7800-4198-9766-8E6C5977C700}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFD27BFE-7800-4198-9766-8E6C5977C700}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DB16BABD-73C5-4F1B-84F0-F0BCD341F38E} = {25668776-6BAF-4AAA-8737-B644824187C0}
+		{AFD27BFE-7800-4198-9766-8E6C5977C700} = {97BC6EFF-57C3-490C-8046-069497975EA5}
+	EndGlobalSection
+EndGlobal

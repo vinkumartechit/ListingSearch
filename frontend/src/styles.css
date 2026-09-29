@@ -1,0 +1,40 @@
+:root { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: #1c1f24; background: #f6f7f9; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 1050px; margin: 0 auto; padding: 24px 16px 48px; }
+h1 { margin: 0 0 16px; font-size: 1.6rem; }
+
+.search-form { background: #fff; border: 1px solid #dfe3e8; border-radius: 8px; padding: 16px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; }
+.field { display: flex; flex-direction: column; gap: 4px; font-size: 0.85rem; }
+.field input, .field select { padding: 8px; border: 1px solid #b8c0cc; border-radius: 6px; font: inherit; }
+.field.has-error input { border-color: #c62828; background: #fff6f6; }
+.field-error { color: #c62828; }
+.actions { display: flex; gap: 8px; margin-top: 14px; }
+
+button { padding: 7px 14px; border: 1px solid #1a56db; background: #1a56db; color: #fff; border-radius: 6px; font: inherit; cursor: pointer; }
+button.secondary { background: #fff; color: #1a56db; }
+button.current { background: #0f2f7a; border-color: #0f2f7a; }
+button:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.banner { margin: 16px 0; padding: 12px 16px; border-radius: 8px; display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+.banner.error { background: #fdecea; border: 1px solid #f3b7b1; color: #7f1d1d; }
+.banner.empty { background: #fff; border: 1px dashed #b8c0cc; flex-direction: column; align-items: flex-start; gap: 4px; }
+.status { margin: 24px 0; }
+
+.table-wrap { overflow-x: auto; margin-top: 16px; background: #fff; border: 1px solid #dfe3e8; border-radius: 8px; }
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid #eef0f3; vertical-align: top; }
+th { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.04em; color: #5b6472; background: #fafbfc; }
+.num { text-align: right; white-space: nowrap; }
+.muted { color: #6b7380; font-size: 0.85rem; }
+.dim { opacity: 0.55; transition: opacity 0.15s; }
+
+.badge { padding: 2px 8px; border-radius: 999px; font-size: 0.75rem; background: #e5e7eb; }
+.badge.active { background: #dcfce7; color: #166534; }
+.badge.pending { background: #fef3c7; color: #92400e; }
+.badge.sold { background: #fee2e2; color: #991b1b; }
+
+.pagination { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; margin-top: 14px; }
+.pages { display: flex; align-items: center; gap: 4px; }
+.page-size select { padding: 5px; }
